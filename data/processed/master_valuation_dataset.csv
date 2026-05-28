@@ -1,0 +1,4 @@
+ticker,company,sector,subsector,period,report_date,currency,revenue,ebitda,ebit,net_income,cash,total_debt,shares_outstanding,valuation_date,current_price,market_cap,market_cap_mn,net_debt,enterprise_value,ebitda_annualized,ev_ebitda_annualized
+GMAT3.SA,Grupo Mateus,Consumer Staples,Food Retail,1T26,2026-03-31,BRL,9402,400,,213,1984,2720,2300047621.0,2026-05-28,4.26,9798203392,9798.203392,736,10534.203392,1600,6.5838771199999995
+ASAI3.SA,Assai,Consumer Staples,Cash & Carry,1T26,2026-03-31,BRL,20600,1000,,174,4366,16374,1353531000.0,2026-05-28,9.25,12411186176,12411.186176,12008,24419.186176,4000,6.104796544
+PCAR3.SA,GPA,Consumer Staples,Food Retail,1T26,2026-03-31,BRL,4374,458,,-1347,943,4173,,2026-05-28,1.99,978954240,978.95424,3230,4208.95424,1832,2.2974641048034936
