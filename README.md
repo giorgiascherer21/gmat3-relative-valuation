@@ -1,6 +1,6 @@
 # GMAT3 Relative Valuation
 
-Projeto simples de valuation relativo para a Grupo Mateus (`GMAT3.SA`), comparando com alguns pares listados na B3:
+Projeto valuation relativo (Trading Comps) para a Grupo Mateus (`GMAT3.SA`), comparando com alguns pares listados na B3:
 
 - Assai (`ASAI3.SA`)
 - GPA / Pao de Acucar (`PCAR3.SA`)
