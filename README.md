@@ -1,52 +1,62 @@
 # GMAT3 Relative Valuation
 
-Professional relative valuation pipeline for Grupo Mateus (`GMAT3.SA`) using Brazilian listed peers:
+Projeto simples de valuation relativo para a Grupo Mateus (`GMAT3.SA`), comparando com alguns pares listados na B3:
 
-- Grupo Mateus (`GMAT3.SA`)
 - Assai (`ASAI3.SA`)
 - GPA / Pao de Acucar (`PCAR3.SA`)
 
-The project is structured as an institutional-style equity research workflow. The first notebook validates raw financial inputs, collects market data, standardizes units, and creates a processed dataset for later trading comparable analysis.
+A ideia e organizar os dados financeiros, puxar precos de mercado e montar uma comparacao por EV/EBITDA.
 
-## Repository Structure
+## Estrutura
 
 ```text
-gmat3-relative-valuation/
-├── data/
-│   ├── raw/
-│   │   └── peer_financials.csv
-│   └── processed/
-├── notebooks/
-│   └── 01-data-validation.ipynb
-├── outputs/
-├── charts/
-├── reports/
-├── README.md
-├── requirements.txt
-└── .gitignore
+data/
+  raw/
+    peer_financials.csv
+  processed/
+    validated_peer_financials.csv
+    master_valuation_dataset.csv
+
+notebooks/
+  01-data-validation.ipynb
+  02-relative-valuation.ipynb
+
+outputs/
+  current_market_positioning.csv
+  gmat3_relative_valuation_scenarios.csv
 ```
 
-## Methodology
+## Notebooks
 
-The current pipeline focuses on relative valuation / trading comparables. Raw company fundamentals are kept separate from calculated outputs. All monetary statement inputs are stored in BRL millions.
+`01-data-validation.ipynb`
 
-The first notebook calculates initial enterprise value and annualized EV/EBITDA signals, but it does not calculate a target price or final valuation conclusion.
+Valida os dados brutos, busca os precos atuais e gera a base principal em `data/processed/master_valuation_dataset.csv`.
 
-## Running the Notebook
+`02-relative-valuation.ipynb`
+
+Usa a base processada para calcular os multiplos e criar cenarios de valuation para GMAT3.
+
+## Como rodar
+
+Crie e ative um ambiente virtual, depois instale as dependencias:
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook notebooks/01-data-validation.ipynb
 ```
 
-Then run:
+Depois abra os notebooks:
 
-```text
-Restart Kernel -> Run All
+```bash
+jupyter notebook
 ```
 
-The notebook exports the processed dataset to:
+Rode primeiro o notebook `01-data-validation.ipynb` e depois o `02-relative-valuation.ipynb`.
 
-```text
-data/processed/master_valuation_dataset.csv
-```
+## Saidas
+
+Os principais arquivos gerados ficam em `outputs/`:
+
+- `current_market_positioning.csv`
+- `gmat3_relative_valuation_scenarios.csv`
+
+Obs: a pasta `.venv/` fica fora do Git.
