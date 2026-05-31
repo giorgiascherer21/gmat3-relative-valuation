@@ -1,11 +1,16 @@
 # GMAT3 Relative Valuation
 
-Projeto valuation relativo (Trading Comps) para a Grupo Mateus (`GMAT3.SA`), comparando com alguns pares listados na B3:
+Projeto de valuation relativo (trading comps) para Grupo Mateus (`GMAT3.SA`), combinando pares brasileiros listados, referencias operacionais e peers LatAm de food retail.
 
 - Assai (`ASAI3.SA`)
 - GPA / Pao de Acucar (`PCAR3.SA`)
+- Carrefour Brasil / Atacadao (`CRFB3.SA`) como referencia operacional delistada
+- Walmex (`WALMEX.MX`)
+- Chedraui (`CHDRAUIB.MX`)
+- Soriana (`SORIANAB.MX`)
+- Cencosud (`CENCOSUD.SN`)
 
-A ideia e organizar os dados financeiros, puxar precos de mercado e montar uma comparacao por EV/EBITDA.
+A ideia e organizar os dados financeiros, puxar precos de mercado, documentar qualidade de peers e montar cenarios de valuation por EV/EBITDA.
 
 ## Estrutura
 
@@ -13,6 +18,8 @@ A ideia e organizar os dados financeiros, puxar precos de mercado e montar uma c
 data/
   raw/
     peer_financials.csv
+    peer_universe.csv
+    external_peer_multiples.csv
   processed/
     validated_peer_financials.csv
     master_valuation_dataset.csv
@@ -23,6 +30,8 @@ notebooks/
 
 outputs/
   current_market_positioning.csv
+  expanded_peer_multiples.csv
+  expanded_peer_stats.csv
   gmat3_relative_valuation_scenarios.csv
 ```
 
@@ -34,7 +43,7 @@ Valida os dados brutos, busca os precos atuais e gera a base principal em `data/
 
 `02-relative-valuation.ipynb`
 
-Usa a base processada para calcular os multiplos e criar cenarios de valuation para GMAT3.
+Usa a base processada e o universo expandido de peers para calcular multiplos, separar peers core de peers distressed/delistados e criar cenarios de valuation para GMAT3.
 
 ## Como rodar
 
@@ -57,6 +66,8 @@ Rode primeiro o notebook `01-data-validation.ipynb` e depois o `02-relative-valu
 Os principais arquivos gerados ficam em `outputs/`:
 
 - `current_market_positioning.csv`
+- `expanded_peer_multiples.csv`
+- `expanded_peer_stats.csv`
 - `gmat3_relative_valuation_scenarios.csv`
 
-Obs: a pasta `.venv/` fica fora do Git.
+Obs: Carrefour Brasil / Atacadao entra como referencia operacional, mas nao como trading comp atual, pois CRFB3 deixou de ser uma acao negociada na B3 apos o processo de delisting.

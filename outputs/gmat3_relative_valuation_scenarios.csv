@@ -1,5 +1,7 @@
-scenario,applied_ev_ebitda_multiple,implied_enterprise_value,implied_equity_value,implied_price_per_share,upside_downside_pct
-Conservative Case,4.201130324401747,6721.8085190427955,5985.8085190427955,2.602471559454201,-38.90911832267133
-Full Peer Median,4.201130324401747,6721.8085190427955,5985.8085190427955,2.602471559454201,-38.90911832267133
-Core Peer Case,6.104796544,9767.6744704,9031.6744704,3.9267336849631254,-7.8231529351379
-Upside Case,6.5838771199999995,10534.203392,9798.203392,4.260000228925695,5.373842615341573e-06
+scenario,applied_ev_ebitda_multiple,peer_count,included_peers,methodology,target_ebitda_annualized,implied_enterprise_value,target_net_debt,implied_equity_value,implied_price_per_share,upside_downside_pct
+Conservative Case,6.382847408,6,"PCAR3.SA, ASAI3.SA, CHDRAUIB.MX, SORIANAB.MX, WALMEX.MX, CENCOSUD.SN","25th percentile of full traded peer set, including GPA",1600,10212.5558528,736,9476.5558528,4.120156368188518,-3.282714361771888
+Domestic Listed Median,4.201130324401747,2,"ASAI3.SA, PCAR3.SA","Median of Brazilian listed peers, including distressed GPA",1600,6721.8085190427955,736,5985.8085190427955,2.602471559454201,-38.90911832267133
+Domestic Core Case,6.104796544,1,ASAI3.SA,Assai-only case as closest domestic listed comparable,1600,9767.6744704,736,9031.6744704,3.9267336849631254,-7.8231529351379
+Expanded LatAm ex-Distressed Median,7.398,5,"ASAI3.SA, CHDRAUIB.MX, SORIANAB.MX, WALMEX.MX, CENCOSUD.SN",Median of traded peers excluding distressed GPA and delisted Carrefour Brasil,1600,11836.8,736,11100.8,4.826334854394739,13.294245408327221
+Expanded LatAm including GPA Median,7.307499999999999,6,"PCAR3.SA, ASAI3.SA, CHDRAUIB.MX, SORIANAB.MX, WALMEX.MX, CENCOSUD.SN","Median of all traded peers, including GPA",1600,11691.999999999998,736,10955.999999999998,4.763379636129716,11.816423383326669
+Upside Case,9.841,5,"ASAI3.SA, CHDRAUIB.MX, SORIANAB.MX, WALMEX.MX, CENCOSUD.SN",Higher of GMAT3 current EV/EBITDA and ex-distressed peer 75th percentile,1600,15745.599999999999,736,15009.599999999999,6.525777928664894,53.187275320772166

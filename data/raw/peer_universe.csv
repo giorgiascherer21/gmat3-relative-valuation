@@ -1,0 +1,9 @@
+ticker,company,country,exchange,currency,subsector,peer_role,peer_quality,include_in_trading_comps,notes
+GMAT3.SA,Grupo Mateus,Brazil,B3,BRL,Food Retail and Cash & Carry,Target,Target,false,Target company to be valued
+ASAI3.SA,Assai,Brazil,B3,BRL,Cash & Carry,Domestic Core Peer,Core Peer,true,Closest listed Brazilian cash and carry comparable
+PCAR3.SA,GPA,Brazil,B3,BRL,Food Retail,Domestic Distressed Peer,Distressed / Turnaround Peer,true,Listed Brazilian food retail peer but distressed and should be scenario-tested
+CRFB3.SA,Carrefour Brasil / Atacadao,Brazil,B3 delisted,BRL,Food Retail and Cash & Carry,Domestic Operational Peer,Delisted / Operational Reference,false,Operationally relevant but not a current trading comparable after delisting
+WALMEX.MX,Walmart de Mexico,Mexico,BMV,MXN,Food Retail and Clubs,LatAm Peer,High Quality LatAm Peer,true,Large LatAm food retail and club-store operator
+CHDRAUIB.MX,Grupo Comercial Chedraui,Mexico,BMV,MXN,Food Retail,LatAm Peer,LatAm Food Retail Peer,true,Mexican food retail operator with Mexico and US exposure
+SORIANAB.MX,Organizacion Soriana,Mexico,BMV,MXN,Food Retail,LatAm Peer,LatAm Food Retail Peer,true,Mexican supermarket and food retail operator
+CENCOSUD.SN,Cencosud,Chile,Santiago,CLP,Food Retail and Multi-format Retail,LatAm Peer,LatAm Multi-format Retail Peer,true,Large Chilean and regional retail operator with food retail exposure
