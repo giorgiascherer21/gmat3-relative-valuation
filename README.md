@@ -19,6 +19,7 @@ data/
   raw/
     peer_financials.csv
     peer_universe.csv
+    peer_exclusion_rationale.csv
     external_peer_multiples.csv
     source_log.csv
   processed/
@@ -35,6 +36,7 @@ outputs/
   expanded_peer_multiples.csv
   expanded_peer_stats.csv
   gmat3_relative_valuation_scenarios.csv
+  multiple_adjustment_bridge.csv
   pe_comparison.csv
   source_log.csv
 ```
@@ -77,6 +79,7 @@ Os principais arquivos gerados ficam em `outputs/`:
 - `expanded_peer_multiples.csv`
 - `expanded_peer_stats.csv`
 - `gmat3_relative_valuation_scenarios.csv`
+- `multiple_adjustment_bridge.csv`
 - `pe_comparison.csv`
 - `gmat3_valuation_research_workbook.xlsx`
 

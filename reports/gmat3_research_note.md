@@ -37,6 +37,22 @@ Ao usar um peer set LatAm ex-distressed, o valuation aponta para upside moderado
 
 Carrefour Brasil / Atacadão é operacionalmente relevante, mas não entra como trading comp atual por não representar mais uma ação negociada em bolsa após o processo de delisting.
 
+### Empresas avaliadas e excluídas
+
+O peer group foi definido a partir de um universo mais amplo de varejo alimentar, cash-and-carry e warehouse clubs. Algumas empresas foram avaliadas, mas ficaram fora da mediana principal por baixa comparabilidade.
+
+| Empresa | Motivo para exclusão da mediana principal |
+|---|---|
+| Walmart Inc. | Escala global, mercado desenvolvido e mix muito diferente de GMAT3 |
+| Costco | Modelo de membership club e múltiplo estruturalmente premium |
+| Kroger | Supermercado dos EUA em mercado maduro, com dinâmica diferente do atacarejo brasileiro |
+| BJ's Wholesale | Warehouse club dos EUA, com economia de membership e risco-país distinto |
+| Carrefour SA | Grupo global; múltiplo consolidado reflete Europa e portfólio internacional |
+| Casino | Situação financeira/reestruturação e exposição europeia reduzem utilidade como benchmark |
+| Carrefour Brasil / Atacadão | Relevante operacionalmente, mas excluído da mediana por delisting de CRFB3 |
+
+Essa seleção evita comparar GMAT3 com empresas que até atuam em varejo alimentar, mas têm escala, geografia, modelo de negócio ou estrutura de risco muito diferentes.
+
 ---
 
 ## Múltiplos
@@ -66,6 +82,8 @@ O EBITDA utilizado ainda é uma aproximação: **EBITDA do 1T26 anualizado**. Po
 
 O cenário base escolhido é o **Expanded LatAm ex-Distressed Median**, pois combina maior amostra com exclusão do principal outlier de baixa.
 
+O múltiplo aplicado não foi tratado como uma mediana mecânica. A mediana LatAm ex-distressed de **7,4x EV/EBITDA** foi usada como ponto de partida. A GMAT3 poderia justificar algum prêmio por força regional, potencial de maturação de lojas e relevância logística. Porém, esse prêmio foi neutralizado pelos sinais fracos do 1T26: SSS negativo, deflação alimentar, menor volume e desalavancagem operacional. Por isso, mantivemos **7,4x** como múltiplo base, sem prêmio agressivo.
+
 ---
 
 ## Conclusão
@@ -75,6 +93,8 @@ A GMAT3 apresenta upside moderado no cenário base. O preço justo estimado de *
 A leitura correta é:
 
 > GMAT3 não deve ser avaliada pela mediana doméstica contaminada por GPA, mas também não merece automaticamente o múltiplo mais alto do setor. O upside existe, mas deve ser lido com cautela diante do SSS negativo, da deflação alimentar e do trade-off entre margem e volume.
+
+Em termos de múltiplo, a decisão foi manter a mediana saudável como referência central. Não aplicamos prêmio porque o 1T26 ainda não sustenta aumento de convicção. Também não aplicamos desconto adicional porque a pressão operacional parece ligada a fatores de curto prazo e não elimina os atributos estruturais da companhia.
 
 O caso depende de execução operacional. Os principais vetores positivos são força regional, maturação de lojas e relevância do atacarejo. Os principais riscos são competição, pressão de margem, expansão com retorno abaixo do esperado e limitações metodológicas da base atual.
 

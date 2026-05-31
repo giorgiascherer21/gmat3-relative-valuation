@@ -8,6 +8,10 @@ Isso implica **upside de aproximadamente 13,3%** no cenário base.
 
 O cenário base usa o peer group **LatAm ex-distressed**, ou seja, exclui GPA como referência central por causa do perfil de turnaround e lucro negativo.
 
+O múltiplo aplicado foi **7,4x EV/EBITDA**. Ele não foi escolhido de forma mecânica: a mediana LatAm ex-distressed foi usada como ponto de partida, mas não aplicamos prêmio porque o 1T26 trouxe sinais operacionais mais fracos.
+
+Para o peer group, avaliamos também empresas globais como Walmart, Costco, Kroger, BJ's, Carrefour SA e Casino. Elas ficaram fora da mediana principal por diferenças de escala, país, modelo de negócio, risco e estrutura de valuation. Carrefour Brasil / Atacadão ficou como referência operacional, mas fora do cálculo por causa do delisting de CRFB3.
+
 ## 2. Por que há upside
 
 GMAT3 parece moderadamente descontada quando comparada com peers LatAm mais saudáveis.
@@ -30,6 +34,13 @@ Os principais pontos de cautela são:
 - Desalavancagem operacional.
 
 Ou seja, o valuation mostra upside, mas a operação ainda precisa melhorar para aumentar a convicção da tese.
+
+Em termos de múltiplo, a lógica é:
+
+- ponto de partida: mediana LatAm ex-distressed de **7,4x**;
+- possível prêmio: força regional, maturação de lojas e logística;
+- desconto de cautela: SSS negativo, deflação alimentar e desalavancagem operacional;
+- conclusão: manter **7,4x**, sem prêmio agressivo.
 
 ## 4. Como explicar o 1T26
 

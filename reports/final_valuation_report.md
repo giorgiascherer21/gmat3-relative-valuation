@@ -156,6 +156,22 @@ Conclusão sobre o peer group:
 
 > Assaí é o peer brasileiro mais limpo. GPA é relevante, mas distorce a mediana por ser uma empresa em situação de turnaround. Os peers LatAm ajudam a aumentar a amostra, mas trazem diferenças de país, escala, moeda, risco e modelo de negócio.
 
+### Empresas avaliadas e excluídas
+
+O universo inicial considerou também nomes globais e operadores do mesmo nicho amplo de varejo alimentar, cash-and-carry e warehouse clubs. Nem todos entraram na mediana principal.
+
+| Empresa | Decisão | Justificativa |
+|---|---|---|
+| Walmart Inc. | Excluída | Escala global, mercado desenvolvido e mix de negócios pouco comparável à GMAT3 |
+| Costco | Excluída | Modelo de membership club e múltiplo estruturalmente premium |
+| Kroger | Excluída | Supermercado dos EUA em mercado maduro, com dinâmica diferente do atacarejo brasileiro |
+| BJ's Wholesale | Excluída | Warehouse club dos EUA; formato parecido em parte, mas economia de membership reduz comparabilidade |
+| Carrefour SA | Excluída | Grupo global com múltiplo consolidado influenciado por Europa e outras geografias |
+| Casino | Excluída | Situação financeira e reestruturação tornam o múltiplo pouco representativo |
+| Carrefour Brasil / Atacadão | Referência operacional | Muito relevante para discussão competitiva, mas fora da mediana por delisting de CRFB3 |
+
+Assim, a mediana principal prioriza peers listados com maior proximidade regional e operacional, evitando uma comparação mecânica com varejistas globais de mercados desenvolvidos.
+
 ---
 
 ## 6. Múltiplo Principal: EV/EBITDA
@@ -235,6 +251,17 @@ Motivo:
 GPA continua aparecendo na análise, mas com uma regra clara:
 
 > GPA entra como cenário de stress, não como benchmark principal de valor justo.
+
+### Racional do múltiplo aplicado
+
+O múltiplo aplicado não foi definido de forma mecânica. A mediana LatAm ex-distressed de **7,4x EV/EBITDA** foi usada como ponto de partida, por ser o peer set mais limpo.
+
+Em seguida, avaliamos dois vetores:
+
+- **Possível prêmio operacional:** força regional, maturação de lojas e relevância logística poderiam justificar um múltiplo ligeiramente acima da mediana.
+- **Desconto por cautela no 1T26:** SSS negativo, deflação alimentar, menor volume e desalavancagem operacional reduzem a convicção.
+
+O resultado foi manter **7,4x** como múltiplo aplicado no caso base. Ou seja, o modelo reconhece a qualidade estrutural da GMAT3, mas não aplica prêmio agressivo enquanto os indicadores operacionais de curto prazo não melhorarem.
 
 ---
 
