@@ -1,0 +1,3 @@
+scenario,applied_ev_ebitda_multiple,peer_count,included_peers,methodology,implied_enterprise_value,implied_equity_value,implied_price_per_share,upside_downside_pct
+Official Base Case,7.398,5,"ASAI3.SA, CHDRAUIB.MX, SORIANAB.MX, WALMEX.MX, CENCOSUD.SN",Official project case: LatAm ex-distressed median from notebook 02,11836.8,11100.8,4.826334854394739,13.028919306668364
+LTM / Trailing Peer Median Check,7.398191306718602,5,"ASAI3.SA, WALMEX.MX, CHDRAUIB.MX, SORIANAB.MX, CENCOSUD.SN",Check case: median of available LTM/trailing EV/EBITDA for healthy peers; may exclude Brazilian peers if trailing data is unavailable,11837.106090749763,11101.106090749763,4.826467934574023,13.032035938501707
