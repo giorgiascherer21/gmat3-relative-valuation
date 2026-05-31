@@ -188,6 +188,18 @@ Neste projeto, o EBITDA ainda é uma aproximação:
 
 Essa é uma limitação importante. O ideal em uma próxima versão é usar EBITDA LTM, isto é, dos últimos doze meses.
 
+## 6A. Múltiplo Complementar: P/L
+
+Também foi adicionado o múltiplo **P/L**, calculado como:
+
+> P/L = Valor de Mercado / Lucro Líquido
+
+Para GMAT3 e Assaí, o P/L pode ser calculado porque ambas têm lucro positivo na base utilizada. Para GPA, o P/L aparece como **N.M.** (*not meaningful*), porque a companhia apresenta prejuízo. Isso reforça o tratamento de GPA como cenário de stress / turnaround, não como benchmark principal.
+
+Para os peers LatAm, o P/L foi incluído a partir de snapshot de mercado via yfinance, usando market cap e lucro líquido trailing na moeda local. Como o P/L é uma razão, ele é comparável desde que numerador e denominador estejam na mesma moeda.
+
+Também foi calculado o lucro líquido setorial para o recorte brasileiro em BRL. O lucro líquido do peer set LatAm não foi somado diretamente porque as empresas reportam em moedas diferentes. Nesse caso, a comparação correta é por múltiplos, não por soma nominal de lucro.
+
 **English summary:**  
 The main metric is EV/EBITDA. EBITDA is currently annualized from 1Q26, which is practical for a first-pass analysis but should eventually be replaced by LTM EBITDA.
 
@@ -219,6 +231,10 @@ Motivo:
 - mantém foco em varejo alimentar;
 - amplia a amostra com empresas LatAm;
 - é mais equilibrado do que a mediana doméstica pura.
+
+GPA continua aparecendo na análise, mas com uma regra clara:
+
+> GPA entra como cenário de stress, não como benchmark principal de valor justo.
 
 ---
 
@@ -276,6 +292,14 @@ Parte do crescimento pode vir da maturação de lojas já abertas. Uma loja nova
 O consumidor brasileiro continua sensível a preço. O formato atacarejo segue relevante por combinar volume, preço competitivo e conveniência.
 
 Esses três pontos ajudam a sustentar por que GMAT3 pode negociar mais próxima de peers saudáveis do que de empresas distressed.
+
+Além desses pontos, a análise operacional deve observar:
+
+- margem EBITDA de GMAT3 versus peers;
+- força logística e capacidade de distribuição;
+- risco de competição no atacarejo;
+- disciplina de capital na expansão;
+- evolução de produtividade das lojas maduras.
 
 ---
 
@@ -402,12 +426,13 @@ Este projeto é um primeiro valuation por múltiplos. Ele ainda tem limitações
 As principais são:
 
 1. EBITDA anualizado não é EBITDA LTM.
-2. O peer group ainda é pequeno.
-3. GPA distorce os múltiplos por ser distressed.
-4. Carrefour Brasil é operacionalmente relevante, mas não é trading comp atual.
-5. Peers LatAm não são perfeitamente comparáveis.
-6. P/L ainda não foi usado como métrica principal porque lucro líquido pode estar distorcido, especialmente em empresas com prejuízo ou turnaround.
-7. Não há ainda análise de sensibilidade completa por EBITDA e múltiplo.
+2. Lucro líquido anualizado não substitui lucro líquido LTM normalizado.
+3. O peer group ainda é pequeno.
+4. GPA distorce os múltiplos por ser distressed.
+5. Carrefour Brasil é operacionalmente relevante, mas não é trading comp atual.
+6. Peers LatAm não são perfeitamente comparáveis.
+7. P/L perde utilidade para empresas com prejuízo ou lucro líquido distorcido.
+8. Não há ainda análise de sensibilidade completa por EBITDA e múltiplo.
 
 ---
 

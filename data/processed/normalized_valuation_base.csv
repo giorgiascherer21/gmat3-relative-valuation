@@ -1,0 +1,8 @@
+ticker,company,country,peer_role,peer_quality,include_in_trading_comps,reported_currency,ebitda_basis,net_income_basis,ev_ebitda_multiple,pe_ratio,pe_status,multiple_source
+GMAT3.SA,Grupo Mateus,Brazil,Target,Target,False,BRL,1Q26 annualized,1Q26 annualized,6.5838771199999995,11.500238723004694,Calculated,notebook_01_annualized_1q26
+ASAI3.SA,Assai,Brazil,Domestic Core Peer,Core Peer,True,BRL,1Q26 annualized,1Q26 annualized,6.104796544,17.83216404597701,Calculated,notebook_01_annualized_1q26
+PCAR3.SA,GPA,Brazil,Domestic Distressed Peer,Distressed / Turnaround Peer,True,BRL,1Q26 annualized,1Q26 annualized,2.2974641048034936,,N.M. - negative earnings,notebook_01_annualized_1q26
+WALMEX.MX,Walmart de Mexico,Mexico,LatAm Peer,High Quality LatAm Peer,True,MXN,yfinance trailing EBITDA,yfinance trailing net income,9.841,18.222221,Calculated,yfinance
+CHDRAUIB.MX,Grupo Comercial Chedraui,Mexico,LatAm Peer,LatAm Food Retail Peer,True,MXN,yfinance trailing EBITDA,yfinance trailing net income,7.217,14.390602,Calculated,yfinance
+SORIANAB.MX,Organizacion Soriana,Mexico,LatAm Peer,LatAm Food Retail Peer,True,MXN,yfinance trailing EBITDA,yfinance trailing net income,7.398,12.700729,Calculated,yfinance
+CENCOSUD.SN,Cencosud,Chile,LatAm Peer,LatAm Multi-format Retail Peer,True,CLP,yfinance trailing EBITDA,yfinance trailing net income,10.864,20.70428,Calculated,yfinance

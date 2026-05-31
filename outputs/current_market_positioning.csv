@@ -1,8 +1,8 @@
-ticker,company,country,peer_quality,ev_ebitda_multiple,include_in_trading_comps,multiple_source
-PCAR3.SA,GPA,Brazil,Distressed / Turnaround Peer,2.2974641048034936,True,notebook_01_annualized_1q26
-ASAI3.SA,Assai,Brazil,Core Peer,6.104796544,True,notebook_01_annualized_1q26
-GMAT3.SA,Grupo Mateus,Brazil,Target,6.5838771199999995,False,notebook_01_annualized_1q26
-CHDRAUIB.MX,Grupo Comercial Chedraui,Mexico,LatAm Food Retail Peer,7.217,True,yfinance
-SORIANAB.MX,Organizacion Soriana,Mexico,LatAm Food Retail Peer,7.398,True,yfinance
-WALMEX.MX,Walmart de Mexico,Mexico,High Quality LatAm Peer,9.841,True,yfinance
-CENCOSUD.SN,Cencosud,Chile,LatAm Multi-format Retail Peer,10.864,True,yfinance
+ticker,company,country,peer_quality,ev_ebitda_multiple,pe_ratio,pe_status,include_in_trading_comps,multiple_source
+PCAR3.SA,GPA,Brazil,Distressed / Turnaround Peer,2.2974641048034936,,N.M. - negative earnings,True,notebook_01_annualized_1q26
+ASAI3.SA,Assai,Brazil,Core Peer,6.104796544,17.83216404597701,Calculated,True,notebook_01_annualized_1q26
+GMAT3.SA,Grupo Mateus,Brazil,Target,6.5838771199999995,11.500238723004694,Calculated,False,notebook_01_annualized_1q26
+CHDRAUIB.MX,Grupo Comercial Chedraui,Mexico,LatAm Food Retail Peer,7.217,14.390602,Calculated,True,yfinance
+SORIANAB.MX,Organizacion Soriana,Mexico,LatAm Food Retail Peer,7.398,12.700729,Calculated,True,yfinance
+WALMEX.MX,Walmart de Mexico,Mexico,High Quality LatAm Peer,9.841,18.222221,Calculated,True,yfinance
+CENCOSUD.SN,Cencosud,Chile,LatAm Multi-format Retail Peer,10.864,20.70428,Calculated,True,yfinance

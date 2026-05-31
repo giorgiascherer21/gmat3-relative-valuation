@@ -8,6 +8,8 @@ A tese é construtiva, mas não agressiva. A ação não parece profundamente de
 
 O principal ponto metodológico é que **GPA não deve ser tratado como peer normal**. A companhia é relevante para o setor, mas seu múltiplo reflete uma situação operacional e financeira mais pressionada. Usá-la sem ajuste puxa a mediana doméstica para baixo e pode subestimar o valor justo da GMAT3.
 
+Além de EV/EBITDA, a análise passou a incluir **P/L** como métrica complementar. O P/L é útil para GMAT3, Assaí e peers LatAm com lucro positivo. Para GPA, o P/L é classificado como **N.M.**, pois a companhia apresenta prejuízo na base utilizada.
+
 ---
 
 ## Tese
@@ -37,9 +39,13 @@ Carrefour Brasil / Atacadão é operacionalmente relevante, mas não entra como 
 
 ## Múltiplos
 
-O múltiplo principal utilizado foi **EV/EBITDA**.
+O múltiplo principal utilizado foi **EV/EBITDA**. O **P/L** foi adicionado como múltiplo complementar.
 
-Esse múltiplo é adequado porque compara o valor da operação com sua geração operacional de resultado, reduzindo distorções de estrutura de capital. Para varejo alimentar, é uma métrica mais estável do que P/L quando há empresas com lucro líquido pressionado ou negativo.
+EV/EBITDA é adequado porque compara o valor da operação com sua geração operacional de resultado, reduzindo distorções de estrutura de capital. Para varejo alimentar, é uma métrica mais estável do que P/L quando há empresas com lucro líquido pressionado ou negativo.
+
+P/L ajuda a enxergar quanto o mercado paga pelo lucro líquido, mas deve ser usado com cautela. No caso de GPA, o lucro negativo torna o múltiplo não significativo. Por isso, GPA entra como referência de stress, não como benchmark central.
+
+Também foi calculado o lucro líquido setorial para o bloco Brasil em BRL. Esse cálculo foi feito separadamente porque não é correto somar lucro líquido de empresas brasileiras, mexicanas e chilenas em moedas diferentes. Para o peer set LatAm, a comparação deve ser feita via múltiplos, como P/L e EV/EBITDA, não por soma direta de lucro líquido.
 
 O EBITDA utilizado ainda é uma aproximação: **EBITDA do 1T26 anualizado**. Portanto, os resultados devem ser interpretados como primeira leitura, não como preço-alvo final.
 
@@ -70,6 +76,8 @@ A leitura correta é:
 
 O caso depende de execução operacional. Os principais vetores positivos são força regional, maturação de lojas e relevância do atacarejo. Os principais riscos são competição, pressão de margem, expansão com retorno abaixo do esperado e limitações metodológicas da base atual.
 
+Do ponto de vista operacional, a tese se apoia em cinco pilares: crescimento regional, maturação de lojas, logística/distribuição, manutenção de margem EBITDA e disciplina competitiva no atacarejo. Sem melhora ou preservação desses fundamentos, o re-rating sugerido pelo peer set LatAm fica menos defensável.
+
 ---
 
 ## Principais Riscos
@@ -80,9 +88,11 @@ O caso depende de execução operacional. Os principais vetores positivos são f
 - Cencosud e Walmex têm diferenças relevantes de escala e mix.
 - Concorrência no atacarejo pode pressionar margem.
 - Crescimento via expansão exige disciplina de capital.
+- P/L perde utilidade para empresas com prejuízo ou lucro não recorrente.
+- A conclusão depende de execução operacional, não apenas de múltiplo.
 
 ---
 
 ## Próximos Passos
 
-Para uma versão final mais robusta, o modelo deve substituir o EBITDA anualizado por EBITDA LTM, calcular P/L com lucro líquido normalizado, aprofundar margens e crescimento dos peers e incluir uma análise de sensibilidade formal para múltiplo e EBITDA.
+Para uma versão final mais robusta, o modelo deve substituir o EBITDA anualizado por EBITDA LTM, usar lucro líquido LTM normalizado, aprofundar margens e crescimento dos peers e incluir uma análise de sensibilidade formal para múltiplo e EBITDA.

@@ -10,7 +10,7 @@ Projeto de valuation relativo (trading comps) para Grupo Mateus (`GMAT3.SA`), co
 - Soriana (`SORIANAB.MX`)
 - Cencosud (`CENCOSUD.SN`)
 
-A ideia e organizar os dados financeiros, puxar precos de mercado, documentar qualidade de peers e montar cenarios de valuation por EV/EBITDA.
+A ideia e organizar os dados financeiros, puxar precos de mercado, documentar qualidade de peers e montar cenarios de valuation por EV/EBITDA e P/L.
 
 ## Estrutura
 
@@ -20,9 +20,11 @@ data/
     peer_financials.csv
     peer_universe.csv
     external_peer_multiples.csv
+    source_log.csv
   processed/
     validated_peer_financials.csv
     master_valuation_dataset.csv
+    normalized_valuation_base.csv
 
 notebooks/
   01-data-validation.ipynb
@@ -33,6 +35,8 @@ outputs/
   expanded_peer_multiples.csv
   expanded_peer_stats.csv
   gmat3_relative_valuation_scenarios.csv
+  pe_comparison.csv
+  source_log.csv
 ```
 
 ## Notebooks
@@ -43,7 +47,11 @@ Valida os dados brutos, busca os precos atuais e gera a base principal em `data/
 
 `02-relative-valuation.ipynb`
 
-Usa a base processada e o universo expandido de peers para calcular multiplos, separar peers core de peers distressed/delistados e criar cenarios de valuation para GMAT3.
+Usa a base processada e o universo expandido de peers para calcular EV/EBITDA, P/L, separar peers core de peers distressed/delistados e criar cenarios de valuation para GMAT3.
+
+`03-valuation-charts.ipynb`
+
+Gera graficos para o relatorio: comparacao EV/EBITDA, P/L, preco justo por cenario, upside/downside, football field e boxplot de outliers.
 
 ## Como rodar
 
@@ -69,5 +77,7 @@ Os principais arquivos gerados ficam em `outputs/`:
 - `expanded_peer_multiples.csv`
 - `expanded_peer_stats.csv`
 - `gmat3_relative_valuation_scenarios.csv`
+- `pe_comparison.csv`
+- `gmat3_valuation_research_workbook.xlsx`
 
 Obs: Carrefour Brasil / Atacadao entra como referencia operacional, mas nao como trading comp atual, pois CRFB3 deixou de ser uma acao negociada na B3 apos o processo de delisting.

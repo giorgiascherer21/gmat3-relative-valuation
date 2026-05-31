@@ -1,0 +1,8 @@
+ticker,company,country,peer_quality,market_cap_mn,net_income_annualized,net_income_basis,pe_ratio,pe_status
+GMAT3.SA,Grupo Mateus,Brazil,Target,9798.203392,852,1Q26 annualized,11.500238723004694,Calculated
+ASAI3.SA,Assai,Brazil,Core Peer,12411.186176,696,1Q26 annualized,17.83216404597701,Calculated
+PCAR3.SA,GPA,Brazil,Distressed / Turnaround Peer,978.95424,-5388,1Q26 annualized,,N.M. - negative earnings
+WALMEX.MX,Walmart de Mexico,Mexico,High Quality LatAm Peer,907495276544.0,50073546752,yfinance trailing net income,18.222221,Calculated
+CHDRAUIB.MX,Grupo Comercial Chedraui,Mexico,LatAm Food Retail Peer,94055096320.0,6545449984,yfinance trailing net income,14.390602,Calculated
+SORIANAB.MX,Organizacion Soriana,Mexico,LatAm Food Retail Peer,61573902336.0,3442627072,yfinance trailing net income,12.700729,Calculated
+CENCOSUD.SN,Cencosud,Chile,LatAm Multi-format Retail Peer,5780666843136.0,282358743040,yfinance trailing net income,20.70428,Calculated

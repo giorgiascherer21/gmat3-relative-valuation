@@ -1,5 +1,5 @@
-as_of_date,ticker,company,country,exchange,currency,current_price,market_cap,enterprise_value,ebitda,ev_ebitda,multiple_source,notes
-2026-05-30,WALMEX.MX,Walmart de Mexico,Mexico,BMV,MXN,52.40,906111942656,959297290240,97478295552,9.841,yfinance,Enterprise value and EBITDA in local currency; multiple is currency-neutral
-2026-05-30,CHDRAUIB.MX,Grupo Comercial Chedraui,Mexico,BMV,MXN,97.43,93508042752,141098713088,19550976000,7.217,yfinance,Enterprise value and EBITDA in local currency; multiple is currency-neutral
-2026-05-30,SORIANAB.MX,Organizacion Soriana,Mexico,BMV,MXN,34.49,61025402880,81359486976,10997213184,7.398,yfinance,Enterprise value and EBITDA in local currency; multiple is currency-neutral
-2026-05-30,CENCOSUD.SN,Cencosud,Chile,Santiago,CLP,2099.00,5780666843136,11398445793280,1049218449408,10.864,yfinance,Enterprise value and EBITDA in local currency; multiple is currency-neutral
+as_of_date,ticker,company,country,exchange,currency,current_price,market_cap,enterprise_value,ebitda,net_income,ev_ebitda,pe_ratio,multiple_source,notes
+2026-05-31,WALMEX.MX,Walmart de Mexico,Mexico,BMV,MXN,52.48,907495276544,959297290240,97478295552,50073546752,9.841,18.222221,yfinance,Enterprise value EBITDA market cap and net income in local currency; multiples are currency-neutral
+2026-05-31,CHDRAUIB.MX,Grupo Comercial Chedraui,Mexico,BMV,MXN,98.00,94055096320,141098713088,19550976000,6545449984,7.217,14.390602,yfinance,Enterprise value EBITDA market cap and net income in local currency; multiples are currency-neutral
+2026-05-31,SORIANAB.MX,Organizacion Soriana,Mexico,BMV,MXN,34.80,61573902336,81359486976,10997213184,3442627072,7.398,12.700729,yfinance,Enterprise value EBITDA market cap and net income in local currency; multiples are currency-neutral
+2026-05-31,CENCOSUD.SN,Cencosud,Chile,Santiago,CLP,2099.00,5780666843136,11398445793280,1049218449408,282358743040,10.864,20.704280,yfinance,Enterprise value EBITDA market cap and net income in local currency; multiples are currency-neutral

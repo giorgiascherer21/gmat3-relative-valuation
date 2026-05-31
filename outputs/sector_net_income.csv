@@ -1,0 +1,4 @@
+sector_cut,currency,net_income_basis,companies,company_count,sector_net_income,positive_earners_net_income
+Brazil listed food retail incl. GMAT3 and GPA,BRL,1Q26 annualized,"GMAT3.SA, ASAI3.SA, PCAR3.SA",3,-3840,1548
+Brazil peers only incl. GPA,BRL,1Q26 annualized,"ASAI3.SA, PCAR3.SA",2,-4692,696
+Brazil peers ex-distressed GPA,BRL,1Q26 annualized,ASAI3.SA,1,696,696
