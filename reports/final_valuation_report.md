@@ -252,10 +252,10 @@ O cenário base chegou aos seguintes números:
 
 Interpretação:
 
-> A GMAT3 apresenta upside moderado quando comparada a um grupo LatAm de varejo alimentar excluindo peers distressed. A ação não parece extremamente barata contra Assaí, mas também não deveria ser avaliada apenas pela mediana brasileira contaminada por GPA.
+> A GMAT3 apresenta upside moderado quando comparada a um grupo LatAm de varejo alimentar excluindo peers distressed. A ação não parece extremamente barata contra Assaí, mas também não deveria ser avaliada apenas pela mediana brasileira contaminada por GPA. O 1T26, porém, exige cautela operacional por causa de SSS negativo, deflação alimentar e menor dinamismo de demanda.
 
 **English summary:**  
-The base case implies a fair price of approximately R$4.83 per share, or about 13.3% upside versus the current price of R$4.26. This supports a constructive but not aggressive thesis.
+The base case implies a fair price of approximately R$4.83 per share, or about 13.3% upside versus the current price of R$4.26. This supports a constructive but not aggressive thesis, with lower near-term conviction due to operational headwinds in 1Q26.
 
 ---
 
@@ -263,7 +263,7 @@ The base case implies a fair price of approximately R$4.83 per share, or about 1
 
 A tese defendida é:
 
-> GMAT3 deve ser avaliada por uma régua mais limpa do que a mediana doméstica simples, porque GPA distorce o setor por ser um caso de turnaround. Usando Assaí como principal referência brasileira e peers LatAm saudáveis como triangulação, a ação apresenta upside moderado.
+> GMAT3 apresenta upside moderado frente ao peer group LatAm ex-distressed, mas o potencial de valorização deve ser interpretado com cautela diante dos sinais de pressão operacional no 1T26, incluindo SSS negativo, deflação alimentar e trade-off entre margem e volume.
 
 Essa tese é **construtiva**, mas não agressiva.
 
@@ -273,7 +273,7 @@ Não estamos dizendo:
 
 Estamos dizendo:
 
-> GMAT3 pode ter valor justo acima do preço atual se for comparada com peers saudáveis, mas o upside depende de execução operacional.
+> GMAT3 pode ter valor justo acima do preço atual se for comparada com peers saudáveis, mas o upside depende de execução operacional, normalização de SSS e recuperação de alavancagem operacional.
 
 ---
 
@@ -303,6 +303,25 @@ Além desses pontos, a análise operacional deve observar:
 
 ---
 
+## 10A. Operational Context and Risks
+
+O 1T26 adiciona uma camada de cautela à tese. A empresa entregou crescimento de receita, mas com sinais claros de pressão operacional.
+
+Os principais pontos foram:
+
+- SSS negativo de **-7,3%**, indicando menor dinamismo das lojas maduras.
+- Deflação alimentar, especialmente em commodities, reduzindo crescimento nominal.
+- Maior endividamento das famílias e mudança no perfil da cesta de consumo.
+- Preservação de margem em detrimento de volume em alguns canais.
+- Lucro bruto crescendo 16,1% e margem bruta subindo para 22,9%.
+- EBITDA pré-IFRS 16 de **R$ 399,8 milhões**, margem de **4,3%**.
+- EBITDA pós-IFRS 16 de **R$ 543,0 milhões**, margem de **5,8%**.
+- Desaceleração de receita provocando desalavancagem operacional, parcialmente compensada pela melhora de margem bruta.
+
+Isso não invalida o valuation, mas limita a convicção da recomendação. O preço justo base continua em R$ 4,83, mas o upside deve ser lido como moderado e condicionado à melhora operacional.
+
+---
+
 ## 11. Riscos da Tese
 
 Os principais riscos são:
@@ -315,6 +334,9 @@ Os principais riscos são:
 - comparação imperfeita com peers LatAm;
 - EBITDA anualizado ainda não substitui EBITDA LTM;
 - cenário macro brasileiro pode afetar consumo, inflação alimentar e custo de capital.
+- SSS negativo e deflação alimentar podem limitar crescimento nominal;
+- a estratégia de preservar margem pode sacrificar volume;
+- desalavancagem operacional pode reduzir a conversão de receita em EBITDA.
 
 Uma tese boa precisa mostrar risco. Caso contrário, parece propaganda.
 
@@ -455,11 +477,11 @@ Para deixar o projeto ainda mais forte, os próximos passos seriam:
 
 A conclusão do projeto é:
 
-> GMAT3 apresenta upside moderado em um valuation por múltiplos quando comparada a um peer group LatAm saudável, excluindo o efeito distorcido de GPA. A tese é construtiva, mas não agressiva, porque GMAT3 já negocia relativamente próxima de Assaí. O principal argumento é que GMAT3 não deve ser avaliada pela mediana doméstica contaminada por uma empresa distressed, mas também não deve receber automaticamente o múltiplo mais alto do setor.
+> GMAT3 apresenta upside moderado em um valuation por múltiplos quando comparada a um peer group LatAm saudável, excluindo o efeito distorcido de GPA. A tese é construtiva, mas não agressiva, porque GMAT3 já negocia relativamente próxima de Assaí e o 1T26 trouxe sinais de pressão operacional. O principal argumento é que GMAT3 não deve ser avaliada pela mediana doméstica contaminada por uma empresa distressed, mas o upside precisa ser lido com cautela por causa de SSS negativo, deflação alimentar e trade-off entre margem e volume.
 
 Em uma frase:
 
-> **GMAT3 parece razoavelmente posicionada, com upside moderado se o mercado reconhecer sua qualidade operacional e compará-la com peers mais saudáveis.**
+> **GMAT3 parece moderadamente descontada frente a peers LatAm saudáveis, mas o contexto operacional do 1T26 reduz a convicção da tese e exige uma leitura mais cautelosa do upside.**
 
 **English final takeaway:**  
-GMAT3 shows moderate upside under an expanded LatAm ex-distressed peer framework. The thesis is constructive but balanced: GMAT3 should not be valued using a distressed domestic median, but it also does not deserve an aggressive premium without further evidence from LTM EBITDA, growth, margins, and execution.
+GMAT3 shows moderate upside under an expanded LatAm ex-distressed peer framework. The thesis is constructive but balanced: GMAT3 should not be valued using a distressed domestic median, but near-term operational headwinds reduce conviction.

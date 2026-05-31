@@ -1,4 +1,4 @@
-ticker,company,sector,subsector,period,report_date,currency,revenue,ebitda,ebit,net_income,cash,total_debt,shares_outstanding
-GMAT3.SA,Grupo Mateus,Consumer Staples,Food Retail,1T26,2026-03-31,BRL,9402,400,,213,1984,2720,2300047621
-ASAI3.SA,Assai,Consumer Staples,Cash & Carry,1T26,2026-03-31,BRL,20600,1000,,174,4366,16374,1353531000
-PCAR3.SA,GPA,Consumer Staples,Food Retail,1T26,2026-03-31,BRL,4374,458,,-1347,943,4173,
+ticker,company,sector,subsector,period,report_date,currency,revenue,ebitda,ebit,net_income,cash,total_debt,shares_outstanding,net_revenue_growth_yoy_pct,net_income_growth_yoy_pct,same_store_sales_growth_pct,gross_margin_pct,ebitda_margin_pre_ifrs16_pct,ebitda_margin_post_ifrs16_pct,ebitda_pre_ifrs16_mn,ebitda_post_ifrs16_mn,operational_comment
+GMAT3.SA,Grupo Mateus,Consumer Staples,Food Retail,1T26,2026-03-31,BRL,9402,400,,213,1984,2720,2300047621.0,12.9,-21.8,-7.3,22.9,4.3,5.8,399.8,543.0,"1T26 impacted by food deflation, weaker demand dynamics, household indebtedness, basket mix shift, and margin-over-volume strategy."
+ASAI3.SA,Assai,Consumer Staples,Cash & Carry,1T26,2026-03-31,BRL,20600,1000,,174,4366,16374,1353531000.0,,,,,,,,,
+PCAR3.SA,GPA,Consumer Staples,Food Retail,1T26,2026-03-31,BRL,4374,458,,-1347,943,4173,,,,,,,,,,

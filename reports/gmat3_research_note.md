@@ -4,11 +4,13 @@
 
 O valuation por múltiplos da GMAT3 indica um preço justo base de **R$ 4,83 por ação**, frente a um preço de mercado de **R$ 4,26**, implicando **upside de aproximadamente 13,3%**.
 
-A tese é construtiva, mas não agressiva. A ação não parece profundamente descontada quando comparada apenas com Assaí, mas a leitura melhora quando o peer group é ampliado para varejistas alimentares LatAm e exclui empresas em situação de turnaround.
+A tese é construtiva, mas não agressiva. A ação não parece profundamente descontada quando comparada apenas com Assaí, mas a leitura melhora quando o peer group é ampliado para varejistas alimentares LatAm e exclui empresas em situação de turnaround. Ainda assim, os dados operacionais do 1T26 exigem cautela.
 
 O principal ponto metodológico é que **GPA não deve ser tratado como peer normal**. A companhia é relevante para o setor, mas seu múltiplo reflete uma situação operacional e financeira mais pressionada. Usá-la sem ajuste puxa a mediana doméstica para baixo e pode subestimar o valor justo da GMAT3.
 
 Além de EV/EBITDA, a análise passou a incluir **P/L** como métrica complementar. O P/L é útil para GMAT3, Assaí e peers LatAm com lucro positivo. Para GPA, o P/L é classificado como **N.M.**, pois a companhia apresenta prejuízo na base utilizada.
+
+O 1T26 trouxe sinais mistos. A receita líquida cresceu 12,9%, mas o lucro líquido caiu 21,8% e o SSS foi negativo em 7,3%. A companhia também enfrentou deflação alimentar, maior endividamento das famílias, mudança na cesta de consumo e priorização de margem em detrimento de volume. Por isso, a leitura correta é: **valuation suggests moderate upside, but near-term operational headwinds reduce conviction.**
 
 ---
 
@@ -72,11 +74,27 @@ A GMAT3 apresenta upside moderado no cenário base. O preço justo estimado de *
 
 A leitura correta é:
 
-> GMAT3 não deve ser avaliada pela mediana doméstica contaminada por GPA, mas também não merece automaticamente o múltiplo mais alto do setor.
+> GMAT3 não deve ser avaliada pela mediana doméstica contaminada por GPA, mas também não merece automaticamente o múltiplo mais alto do setor. O upside existe, mas deve ser lido com cautela diante do SSS negativo, da deflação alimentar e do trade-off entre margem e volume.
 
 O caso depende de execução operacional. Os principais vetores positivos são força regional, maturação de lojas e relevância do atacarejo. Os principais riscos são competição, pressão de margem, expansão com retorno abaixo do esperado e limitações metodológicas da base atual.
 
 Do ponto de vista operacional, a tese se apoia em cinco pilares: crescimento regional, maturação de lojas, logística/distribuição, manutenção de margem EBITDA e disciplina competitiva no atacarejo. Sem melhora ou preservação desses fundamentos, o re-rating sugerido pelo peer set LatAm fica menos defensável.
+
+---
+
+## Operational Context and Risks
+
+O 1T26 reduz a convicção da tese de curto prazo. Os principais pontos são:
+
+- SSS negativo de **-7,3%**, indicando menor dinamismo das lojas maduras.
+- Deflação alimentar, especialmente em commodities, pressionando crescimento nominal.
+- Maior endividamento das famílias e mudança no perfil da cesta de consumo.
+- Preservação de margem em detrimento de volume em alguns canais.
+- Lucro bruto crescendo 16,1% e margem bruta subindo para 22,9%, mas com desalavancagem operacional.
+- EBITDA pré-IFRS 16 de **R$ 399,8 milhões**, margem de **4,3%**.
+- EBITDA pós-IFRS 16 de **R$ 543,0 milhões**, margem de **5,8%**.
+
+Esses fatores não invalidam o valuation, mas limitam a convicção da tese. Para que o upside se materialize, GMAT3 precisa mostrar normalização de SSS, preservação de margem e recuperação de alavancagem operacional.
 
 ---
 
@@ -90,6 +108,8 @@ Do ponto de vista operacional, a tese se apoia em cinco pilares: crescimento reg
 - Crescimento via expansão exige disciplina de capital.
 - P/L perde utilidade para empresas com prejuízo ou lucro não recorrente.
 - A conclusão depende de execução operacional, não apenas de múltiplo.
+- SSS negativo e deflação alimentar podem limitar crescimento nominal.
+- A estratégia de preservar margem pode sacrificar volume.
 
 ---
 
