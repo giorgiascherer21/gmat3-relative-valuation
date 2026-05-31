@@ -1,6 +1,6 @@
 # GMAT3 Relative Valuation
 
-Projeto de valuation relativo (trading comps) para Grupo Mateus (`GMAT3.SA`), combinando pares brasileiros listados, referencias operacionais e peers LatAm de food retail.
+Projeto de valuation relativo para Grupo Mateus (`GMAT3.SA`), com foco em varejo alimentar e atacarejo. A análise combina pares brasileiros listados, referências operacionais e empresas LatAm de food retail para estimar uma faixa de valor justo por múltiplos.
 
 - Assai (`ASAI3.SA`)
 - GPA / Pao de Acucar (`PCAR3.SA`)
@@ -10,7 +10,7 @@ Projeto de valuation relativo (trading comps) para Grupo Mateus (`GMAT3.SA`), co
 - Soriana (`SORIANAB.MX`)
 - Cencosud (`CENCOSUD.SN`)
 
-A ideia e organizar os dados financeiros, puxar precos de mercado, documentar qualidade de peers e montar cenarios de valuation por EV/EBITDA e P/L.
+A análise organiza dados financeiros, preços de mercado, qualidade do peer group e cenários de valuation por EV/EBITDA e P/L.
 
 ## Estrutura
 
@@ -30,12 +30,15 @@ data/
 notebooks/
   01-data-validation.ipynb
   02-relative-valuation.ipynb
+  03-valuation-charts.ipynb
+  04-ltm-comparison.ipynb
 
 outputs/
   current_market_positioning.csv
   expanded_peer_multiples.csv
   expanded_peer_stats.csv
   gmat3_relative_valuation_scenarios.csv
+  ltm_methodology_valuation_check.csv
   multiple_adjustment_bridge.csv
   pe_comparison.csv
   source_log.csv
@@ -53,7 +56,11 @@ Usa a base processada e o universo expandido de peers para calcular EV/EBITDA, P
 
 `03-valuation-charts.ipynb`
 
-Gera graficos para o relatorio: comparacao EV/EBITDA, P/L, preco justo por cenario, upside/downside, football field e boxplot de outliers.
+Gera graficos para o relatorio: comparacao EV/EBITDA, spread contra a mediana saudavel, P/L, preco justo por cenario, upside/downside, football field e boxplot de outliers.
+
+`04-ltm-comparison.ipynb`
+
+Testa a sensibilidade metodologica entre a anualizacao do 1T26 e uma leitura LTM/trailing disponivel.
 
 ## Como rodar
 
@@ -69,7 +76,7 @@ Depois abra os notebooks:
 jupyter notebook
 ```
 
-Rode primeiro o notebook `01-data-validation.ipynb` e depois o `02-relative-valuation.ipynb`.
+Rode primeiro o notebook `01-data-validation.ipynb`, depois `02-relative-valuation.ipynb`. Os notebooks `03` e `04` usam os outputs gerados nas etapas anteriores.
 
 ## Saidas
 
@@ -81,6 +88,7 @@ Os principais arquivos gerados ficam em `outputs/`:
 - `gmat3_relative_valuation_scenarios.csv`
 - `multiple_adjustment_bridge.csv`
 - `pe_comparison.csv`
+- `ltm_methodology_valuation_check.csv`
 - `gmat3_valuation_research_workbook.xlsx`
 
 Obs: Carrefour Brasil / Atacadao entra como referencia operacional, mas nao como trading comp atual, pois CRFB3 deixou de ser uma acao negociada na B3 apos o processo de delisting.

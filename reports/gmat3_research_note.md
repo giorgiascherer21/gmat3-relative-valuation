@@ -10,7 +10,7 @@ O principal ponto metodológico é que **GPA não deve ser tratado como peer nor
 
 Além de EV/EBITDA, a análise passou a incluir **P/L** como métrica complementar. O P/L é útil para GMAT3, Assaí e peers LatAm com lucro positivo. Para GPA, o P/L é classificado como **N.M.**, pois a companhia apresenta prejuízo na base utilizada.
 
-O 1T26 trouxe sinais mistos. A receita líquida cresceu 12,9%, mas o lucro líquido caiu 21,8% e o SSS foi negativo em 7,3%. A companhia também enfrentou deflação alimentar, maior endividamento das famílias, mudança na cesta de consumo e priorização de margem em detrimento de volume. Por isso, a leitura correta é: **valuation suggests moderate upside, but near-term operational headwinds reduce conviction.**
+O 1T26 trouxe sinais mistos. A receita líquida cresceu 12,9%, mas o lucro líquido caiu 21,8% e o SSS foi negativo em 7,3%. A companhia também enfrentou deflação alimentar, maior endividamento das famílias, mudança na cesta de consumo e priorização de margem em detrimento de volume. Por isso, a leitura correta é: **o valuation sugere upside moderado, mas os sinais operacionais de curto prazo reduzem a convicção da tese.**
 
 ---
 

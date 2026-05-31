@@ -10,11 +10,6 @@ Em termos simples:
 
 > Se empresas parecidas negociam a determinado múltiplo, podemos usar esse múltiplo como referência para estimar quanto a GMAT3 poderia valer.
 
-**English summary:**  
-The project estimates a fair value range for Grupo Mateus using relative valuation. The method compares GMAT3 with listed food retail peers and applies peer EV/EBITDA multiples to GMAT3's EBITDA.
-
----
-
 ## 2. Empresa-Alvo
 
 A empresa-alvo do projeto é:
@@ -132,11 +127,6 @@ Depois, o peer group foi expandido com empresas da América Latina:
 
 Também incluímos Carrefour Brasil / Atacadão como referência operacional, mas não como trading comp principal, porque CRFB3 foi deslistada.
 
-**English summary:**  
-Brazilian financials were standardized in BRL millions. LatAm peers were added using EV/EBITDA market multiple snapshots. Carrefour Brasil was kept as an operational reference but excluded from trading comp medians after delisting.
-
----
-
 ## 5. Peer Group
 
 O peer group foi dividido por qualidade e função analítica.
@@ -216,11 +206,6 @@ Para os peers LatAm, o P/L foi incluído a partir de snapshot de mercado via yfi
 
 Também foi calculado o lucro líquido setorial para o recorte brasileiro em BRL. O lucro líquido do peer set LatAm não foi somado diretamente porque as empresas reportam em moedas diferentes. Nesse caso, a comparação correta é por múltiplos, não por soma nominal de lucro.
 
-**English summary:**  
-The main metric is EV/EBITDA. EBITDA is currently annualized from 1Q26, which is practical for a first-pass analysis but should eventually be replaced by LTM EBITDA.
-
----
-
 ## 7. Cenários de Valuation
 
 Em vez de usar um único múltiplo, foram criados cenários.
@@ -280,11 +265,6 @@ O cenário base chegou aos seguintes números:
 Interpretação:
 
 > A GMAT3 apresenta upside moderado quando comparada a um grupo LatAm de varejo alimentar excluindo peers distressed. A ação não parece extremamente barata contra Assaí, mas também não deveria ser avaliada apenas pela mediana brasileira contaminada por GPA. O 1T26, porém, exige cautela operacional por causa de SSS negativo, deflação alimentar e menor dinamismo de demanda.
-
-**English summary:**  
-The base case implies a fair price of approximately R$4.83 per share, or about 13.3% upside versus the current price of R$4.26. This supports a constructive but not aggressive thesis, with lower near-term conviction due to operational headwinds in 1Q26.
-
----
 
 ## 9. Tese de Investimento
 
@@ -509,6 +489,3 @@ A conclusão do projeto é:
 Em uma frase:
 
 > **GMAT3 parece moderadamente descontada frente a peers LatAm saudáveis, mas o contexto operacional do 1T26 reduz a convicção da tese e exige uma leitura mais cautelosa do upside.**
-
-**English final takeaway:**  
-GMAT3 shows moderate upside under an expanded LatAm ex-distressed peer framework. The thesis is constructive but balanced: GMAT3 should not be valued using a distressed domestic median, but near-term operational headwinds reduce conviction.

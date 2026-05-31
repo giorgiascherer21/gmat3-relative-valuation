@@ -226,6 +226,8 @@ A dívida líquida de GMAT3 não destrói a tese. Pelo contrário, o perfil de a
 
 ## 10. Spread de Múltiplos
 
+![Spread de EV/EBITDA: GMAT3 vs Mediana Saudável](../charts/gmat3_spread_vs_healthy_median.png)
+
 ![Upside Downside by Scenario](../charts/upside_downside_by_scenario.png)
 
 GMAT3 negocia em aproximadamente **6,6x EV/EBITDA** na base anualizada, enquanto a mediana saudável LatAm fica em **7,4x**. O spread é positivo para a tese: GMAT3 negocia abaixo da mediana saudável.
@@ -378,4 +380,3 @@ SSS negativo, deflação alimentar, consumidor pressionado, competição no atac
 | Cenários de valuation | `outputs/gmat3_relative_valuation_scenarios.csv` |
 | Check LTM | `outputs/ltm_methodology_valuation_check.csv` |
 | Workbook Excel | `outputs/gmat3_valuation_research_workbook.xlsx` |
-
